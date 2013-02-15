@@ -12,16 +12,16 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="SlimRoms/android_build" remote="github" revision="jb4.2" >
+  <project path="build" name="mnm9994u/android_build" remote="github" revision="jb4.2" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
-  <project path="bionic" name="SlimRoms/android_bionic" remote="github" revision="jb4.2" />
+  <project path="bionic" name="mnm9994u/android_bionic" remote="github" revision="jb4.2" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="SlimRoms/bootable_recovery" remote="github" revision="jb4.2" />
   <project path="cts" name="platform/cts" />
   <project path="dalvik" name="SlimRoms/android_dalvik" remote="github" revision="jb4.2" />
-  <project path="development" name="SlimRoms/android_development" remote="github" revision="jb4.2" />
+  <project path="development" name="mnm9994u/android_development" remote="github" revision="jb4.2" />
   <project path="device/common" name="SlimRoms/device_common" remote="github" revision="jb4.2" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" />
   <project path="device/generic/armv7-a" name="device/generic/armv7-a" />
@@ -45,7 +45,7 @@
   <project path="external/bash" name="SlimRoms/android_external_bash" remote="github" revision="jb4.2" />
   <project path="external/bison" name="platform/external/bison" />
   <project path="external/blktrace" name="platform/external/blktrace" />
-  <project path="external/bluetooth/bluedroid" name="SlimRoms/android_external_bluetooth_bluedroid" remote="github" revision="jb4.2" />
+  <project path="external/bluetooth/bluedroid" name="mnm9994u/android_external_bluetooth_bluedroid" remote="github" revision="jb4.2" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" />
   <project path="external/busybox" name="SlimRoms/android_external_busybox" remote="github" revision="jb4.2" />
@@ -181,7 +181,7 @@
   <project path="external/tremolo" name="platform/external/tremolo" />
   <project path="external/v8" name="platform/external/v8" />
   <project path="external/valgrind" name="platform/external/valgrind" />
-  <project path="external/webkit" name="SlimRoms/android_external_webkit" remote="github" revision="jb4.2" />
+  <project path="external/webkit" name="mnm9994u/android_external_webkit" remote="github" revision="jb4.2" />
   <project path="external/webp" name="platform/external/webp" />
   <project path="external/webrtc" name="platform/external/webrtc" />
   <project path="external/wpa_supplicant_6" name="SlimRoms/android_external_wpa_supplicant_6" remote="github" revision="jb4.2" />
@@ -191,8 +191,8 @@
   <project path="external/yaffs2" name="SlimRoms/android_external_yaffs2" remote="github" revision="jb4.2" />
   <project path="external/zlib" name="SlimRoms/android_external_zlib" remote="github" revision="jb4.2" />
   <project path="external/zxing" name="platform/external/zxing" />
-  <project path="frameworks/av" name="SlimRoms/frameworks_av" remote="github" revision="jb4.2" />
-  <project path="frameworks/base" name="SlimRoms/frameworks_base" remote="github" revision="jb4.2" />
+  <project path="frameworks/av" name="mnm9994u/frameworks_av" remote="github" revision="jb4.2" />
+  <project path="frameworks/base" name="mnm9994u/frameworks_base" remote="github" revision="jb4.2" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
   <project path="frameworks/compile/llvm-ndk-cc" name="platform/frameworks/compile/llvm-ndk-cc" />
@@ -201,7 +201,7 @@
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" />
-  <project path="frameworks/native" name="SlimRoms/frameworks_native" remote="github" revision="jb4.2" />
+  <project path="frameworks/native" name="mnm9994u/frameworks_native" remote="github" revision="jb4.2" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
@@ -209,8 +209,8 @@
   <project path="frameworks/opt/mailcommon" name="platform/frameworks/opt/mailcommon" />
   <project path="frameworks/opt/mms" name="platform/frameworks/opt/mms" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" />
-  <project path="frameworks/opt/telephony" name="SlimRoms/frameworks_opt_telephony" remote="github" revision="jb4.2" />
-  <project path="frameworks/opt/vcard" name="SlimRoms/android_frameworks_opt_vcard" remote="github" revision="jb4.2" />
+  <project path="frameworks/opt/telephony" name="mnm9994u/frameworks_opt_telephony" remote="github" revision="jb4.2" />
+  <project path="frameworks/opt/vcard" name="mnm9994u/android_frameworks_opt_vcard" remote="github" revision="jb4.2" />
   <project path="frameworks/rs" name="platform/frameworks/rs" />
   <project path="frameworks/support" name="platform/frameworks/support" />
   <project path="frameworks/testing" name="platform/frameworks/testing" />
@@ -219,7 +219,7 @@
   <project path="hardware/broadcom/wlan" name="SlimRoms/hardware_broadcom_wlan" remote="github" revision="jb4.2" />
   <project path="hardware/invensense" name="platform/hardware/invensense" revision="refs/tags/android-4.2.1_r1.2" />
   <project path="hardware/libhardware" name="SlimRoms/hardware_libhardware" remote="github" revision="jb4.2" />
-  <project path="hardware/libhardware_legacy" name="SlimRoms/hardware_libhardware_legacy" remote="github" revision="jb4.2" />
+  <project path="hardware/libhardware_legacy" name="mnm9994u/hardware_libhardware_legacy" remote="github" revision="jb4.2" />
   <project path="hardware/msm7k" name="platform/hardware/msm7k" revision="refs/tags/android-4.2.1_r1.2" />
   <project path="hardware/qcom/audio" name="SlimRoms/hardware_qcom_audio" remote="github" revision="jb4.2" />
   <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" revision="refs/tags/android-4.2.1_r1.2" />
@@ -242,34 +242,34 @@
   <project path="libnativehelper" name="platform/libnativehelper" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
-  <project path="packages/apps/Bluetooth" name="SlimRoms/packages_apps_Bluetooth" remote="github" revision="jb4.2" />
+  <project path="packages/apps/Bluetooth" name="mnm9994u/packages_apps_Bluetooth" remote="github" revision="jb4.2" />
   <project path="packages/apps/Browser" name="SlimRoms/packages_apps_Browser" remote="github" revision="jb4.2" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
-  <project path="packages/apps/Calendar" name="SlimRoms/packages_apps_Calendar" remote="github" revision="jb4.2" />
-  <project path="packages/apps/Camera" name="SlimRoms/packages_apps_Camera" remote="github" revision="jb4.2" />
+  <project path="packages/apps/Calendar" name="mnm9994u/packages_apps_Calendar" remote="github" revision="jb4.2" />
+  <project path="packages/apps/Camera" name="mnm9994u/packages_apps_Camera" remote="github" revision="jb4.2" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
-  <project path="packages/apps/Contacts" name="SlimRoms/packages_apps_Contacts" remote="github" revision="jb4.2" />
-  <project path="packages/apps/DeskClock" name="SlimRoms/packages_apps_DeskClock" remote="github" revision="jb4.2" />
+  <project path="packages/apps/Contacts" name="mnm9994u/packages_apps_Contacts" remote="github" revision="jb4.2" />
+  <project path="packages/apps/DeskClock" name="mnm9994u/packages_apps_DeskClock" remote="github" revision="jb4.2" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
-  <project path="packages/apps/Gallery2" name="SlimRoms/packages_apps_Gallery2" remote="github" revision="jb4.2" />
+  <project path="packages/apps/Gallery2" name="mnm9994u/packages_apps_Gallery2" remote="github" revision="jb4.2" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
   <project path="packages/apps/LockClock" name="CyanogenMod/android_packages_apps_LockClock" remote="github" revision="cm-10.1" />
-  <project path="packages/apps/Mms" name="SlimRoms/packages_apps_Mms" remote="github" revision="jb4.2" />
+  <project path="packages/apps/Mms" name="mnm9994u/packages_apps_Mms" remote="github" revision="jb4.2" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" revision="jb-mr1-release" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
-  <project path="packages/apps/Phone" name="SlimRoms/packages_apps_Phone" remote="github" revision="jb4.2" />
+  <project path="packages/apps/Phone" name="mnm9994u/packages_apps_Phone" remote="github" revision="jb4.2" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
-  <project path="packages/apps/Settings" name="SlimRoms/packages_apps_Settings" remote="github" revision="jb4.2" />
+  <project path="packages/apps/Settings" name="mnm9994u/packages_apps_Settings" remote="github" revision="jb4.2" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
@@ -280,7 +280,7 @@
   <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
   <project path="packages/experimental" name="platform/packages/experimental" />
-  <project path="packages/inputmethods/LatinIME" name="SlimRoms/packages_inputmethods_LatinIME" remote="github" revision="jb4.2" />
+  <project path="packages/inputmethods/LatinIME" name="mnm9994u/packages_inputmethods_LatinIME" remote="github" revision="jb4.2" />
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" />
   <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
@@ -290,7 +290,7 @@
   <project path="packages/providers/DrmProvider" name="platform/packages/providers/DrmProvider" />
   <project path="packages/providers/MediaProvider" name="SlimRoms/packages_providers_MediaProvider" remote="github" revision="jb4.2" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" />
-  <project path="packages/providers/TelephonyProvider" name="SlimRoms/packages_providers_TelephonyProvider" remote="github" revision="jb4.2" />
+  <project path="packages/providers/TelephonyProvider" name="mnm9994u/packages_providers_TelephonyProvider" remote="github" revision="jb4.2" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" />
   <project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" />
   <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" />
@@ -327,16 +327,16 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" />
   <project path="sdk" name="platform/sdk" />
   <project path="system/bluetooth" name="SlimRoms/android_system_bluetooth" remote="github" revision="jb4.2" />
-  <project path="system/core" name="SlimRoms/android_system_core" remote="github" revision="jb4.2" />
+  <project path="system/core" name="mnm9994u/android_system_core" remote="github" revision="jb4.2" />
   <project path="system/extras" name="platform/system/extras" />
   <project path="system/media" name="platform/system/media" />
-  <project path="system/netd" name="SlimRoms/android_system_netd" remote="github" revision="jb4.2" />
+  <project path="system/netd" name="mnm9994u/android_system_netd" remote="github" revision="jb4.2" />
   <project path="system/security" name="platform/system/security" />
-  <project path="system/vold" name="SlimRoms/android_system_vold" remote="github" revision="jb4.2" />
+  <project path="system/vold" name="mnm9994u/android_system_vold" remote="github" revision="jb4.2" />
   <project path="tools/build" name="platform/tools/build" groups="toolsbuild" />
   <project path="tools/motodev" name="platform/tools/motodev" />
 
-  <project path="platform_manifest" name="SlimRoms/platform_manifest" remote="github" revision="jb4.2" />
+  <project path="platform_manifest" name="mnm9994u/platform_manifest" remote="github" revision="jb4.2" />
 
   <!-- New Additions for slim -->
   <project path="vendor/slim" name="SlimRoms/vendor_slim" remote="github" revision="jb4.2" />
